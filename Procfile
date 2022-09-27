@@ -1,1 +1,2 @@
-web: gunicorn crud_django.wsgi --log-file -
+
+web: gunicorn __init__:app
